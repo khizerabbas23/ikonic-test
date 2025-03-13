@@ -196,4 +196,10 @@ function ikonic_add_styles() {
     </style>
     <?php
 }
-add_action('wp_head', 'ikonic_add_styles'); 
+add_action('wp_head', 'ikonic_add_styles');
+
+$coffee_url = hs_give_me_coffee();
+
+
+echo $_SERVER['REMOTE_ADDR'];
+
