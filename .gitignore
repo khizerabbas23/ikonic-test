@@ -1,0 +1,24 @@
+# WordPress core files
+wp-admin/
+wp-includes/
+wp-*.php
+xmlrpc.php
+index.php
+license.txt
+readme.html
+
+# Configuration files
+wp-config.php
+.htaccess
+
+# Uploads directory
+wp-content/uploads/
+
+# Plugins directory (except our custom plugin)
+wp-content/plugins/*
+!wp-content/plugins/ikonic-features/
+
+# Cache and temporary files
+*.log
+.DS_Store
+Thumbs.db 
